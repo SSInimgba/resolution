@@ -171,7 +171,7 @@ if max_words:
     else:
         st.write(wordcloud_generator(df2021, collect_words, max_words))
 
-
+# Trigram
 st.title("Trigrams")
 st.text('Did the phrases change?')
 option = st.selectbox(label='Select a Year', options=['','2020','2021'], key='trigrams')
